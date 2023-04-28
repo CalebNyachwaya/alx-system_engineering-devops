@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This is a Bash script that displays the phrase "To infinity and beyond" indefinitely.
+
+trap "echo I am invincible!!!" SIGTERM # Set up a trap to handle the SIGTERM signal.
+
+while true # Run the loop indefinitely.
+do
+    echo "To infinity and beyond" # Display the phrase "To infinity and beyond".
+    sleep 2 # Sleep for 2 seconds before running the loop again.
+done
