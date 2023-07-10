@@ -3,7 +3,7 @@ _This section covers various networking concepts and practical tasks. The goal o
 <br><br>
 
 ### Topics
-- localhost/**`127.0.0.1`
+- localhost/**`127.0.0.1`**
 - **`0.0.0.0`**
 - **`/etc/hosts`**
 - Displaying active network interfaces
