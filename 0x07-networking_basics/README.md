@@ -3,17 +3,34 @@ _This section covers various networking concepts and practical tasks. The goal o
 <br><br>
 
 ### Topics
-- localhost/**`127.0.0.1`
-- **`0.0.0.0`**
-- **`/etc/hosts`**
-- Displaying active network interfaces
-- Networking commands and tools
-  - `ifconfig`
-  - `telnet`
-  - `nc (Netcat)`
-  - `cut`
+- OSI model
+- Different types of networks
+- Ping/ICMP
+- Positional parameters
 <br><br>
 
 ### Tasks
-- [x] [0-change_your_home_IP](./0-change_your_home_IP) - a script that configures an Ubuntu server so that localhost resolves to 127.0.0.2 and facebook.com resolves to 8.8.8.8
-- [x] [1-show_attached_IPs](./1-show_attached_IPs) - a script that displays all active IPv4 IPs on the machine it’s executed on
+- [x] [0-OSI_model](./0-OSI_model): Text file answering the following questions:
+  * What is the OSI model?
+  * How is the OSI model organized?
+
+- [x] [1-types_of_network](./1-types_of_network): Text file answering the following questions:
+  * What type of network are Holberton iMacs connected to?
+  * What type of network could connect an office in one building to another office in a building a few streets away?
+  * What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
+
+- [x] [2-MAC_and_IP_address](./2-MAC_and_IP_address): Text file answering the following questions:
+  * What is a MAC address?
+  * What is an IP address?
+
+- [x] [3-UDP_and_TCP](./3-UDP_and_TCP): Text file answering the following questions
+  (boxes refer to an image provided by Holberton School):
+  * Which statement is correct for the TCP box:
+  * Which statement is correct for the UDP box:
+  * Which statement is correct for the TCP worker:
+
+- [x] [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports): Bash script that displays listening ports.
+  * Only shows listening sockets.
+  * Displays the PID and name of the program to which each socket belongs.
+
+- [x] [5-is_the_host_on_the_network](./5-is_the_host_on_the_network): Bash script that pings an IP address received as an argument 5 times.
