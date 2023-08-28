@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# configure a server so that you can connect to it
+# without a password
+# must be configured to use the private key ~/.ssh/school
+Host 54.87.239.146
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
