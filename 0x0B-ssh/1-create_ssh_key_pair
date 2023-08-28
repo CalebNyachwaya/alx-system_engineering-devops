@@ -1,5 +1,4 @@
 #!/bin/bash
 # a Bash script that creates an RSA key pair
 # no. of bits 4096, passphrase - betty
-
 ssh-keygen -f school -b 4096 -P betty
